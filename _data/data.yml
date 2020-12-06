@@ -1,0 +1,208 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Anthony Richardson
+    tagline: Product & Development Manager
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: anthony@anthonyrichardson.com
+    phone:
+    website: anthonyrichardson.com #do not add http://
+    linkedin: anthonyrichardson
+    github:
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: English
+        level: Native
+
+    interests:
+      - item: Sailing
+        link:
+
+      - item: Portraiture
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      I am an experienced manager with extensive product, analyst and software development experience.
+
+      I have developed and managed software development at all levels providing a solid foundation to assess, develop and deploy a variety of software solutions to meet complex business needs.
+
+      As a manager I use my technical expertise to inform and guide business decisions with accurate technical impact analysis and conversely drive technical decisions around business needs and goals.
+_education:
+    - degree: MSc in Computer Science
+      university: University of London
+      time: 2011 - 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+experiences:
+    - role: Product & Development Manager
+      time: 2013 - Present
+      company: Clintel Systems, Adelaide
+      details: |
+        I am responsible for the design and implementation of Clintel Systems clinical software product CareRight. CareRight is a fully integrated patient administration, medical records and billing systems for medical specialists and private hospitals. Direct integration for Medicare / Health Fund claiming systems.
+
+        Initially employed as the Development Manager I was responsible for the software development team and was technical lead during the amalgamation of three different products to create the current generation of software.
+
+        The role evolved to become the Product Manager as an umbrella role overseeing  product development and professional services delivery. I was lead consultant on all large client installations driving the changes to the product as required and designing solutions, both software and business to meet all stakeholder needs.
+
+        A key component of the product offering was an integration API middleware to enable clients to provide integration with corporate systems.
+    - role: Senior Web Applications Developer
+      time: 2009 - 2013
+      company: University of Adelaide, Adelaide
+      details: |
+        I worked on a range of internal and external facing applications built and maintained for the Office of the Deputy Vice-Chancellor (Research). 
+
+        Data is aggregated from various source systems in the university compromising millions of rows of data spanning decades of use. Extensive use of Oracle PL/SQL. 
+
+        Accomplishments:
+          - Technical Lead on major project with multiple developers.
+          - Onboarding and training of new developers.
+          - Technical and Business Analyst role on projects.
+          - Consistent delivery of requirements on time.
+    - role: Senior Software Developer
+      time: 2002 - 2008
+      company: Clipsal Australia, Adelaide
+      details: |
+        Develop a C-Bus OPC Server for Clipsal's C-Bus Building Automation System. This is a highly scalable, multi-threaded, DCOM messaging server built around the OPC Industrial Automation protocol.
+
+        Develop end user software for commissioning the C-Bus Lighting Control systems. Involving the development of both serial and ethernet implementations of Clipsal’s proprietary communications protocols.
+
+        Accomplishments:
+          - Develop a modular architecture to allow the easy inclusion of the dozens of different hardware products managed by the system.
+          - Work closely with Clipsal Sales & Marketing to identify and develop features.
+          - Identify root causes of system issues on large installations using low level packet capturing and analysis. (e.g. Melbourne Cricket Ground MCG)
+    - role: Software Developer
+      time: 1997 - 2002
+      company: Sage Automation, Adelaide
+      details: |
+        Develop supervisory control and data acquisition systems for industrial  machinery and production lines. Used a broad range of languages and products to deliver manufacturing control systems, Business Information Systems and traffic management systems.
+
+        Extensive use of Citect SCADA and Borland Delphi. Integration of complex systems involving machine control and communication protocol implementations. High availability environment of mission critical systems.
+
+        Accomplishments:
+          - Lead software developer on project involved immovable deadlines co-ordinating machinery, software, engineering and civil works.
+          - Develop very robust fault tolerant systems.
+_projects:
+    title: Projects
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+_publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Product Management
+        level: 100%
+
+      - name: Development Management
+        level: 100%
+
+      - name: Ruby on Rails
+        level: 100%
+
+      - name: Javascript (Stimulus, jQuery, ExtJS, Turbolinks, Vanilla)
+        level: 95%
+
+      - name: Postgresql & MSSQL
+        level: 95%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: DevOps (Bash, Chef, Capistrano, Docker)
+        level: 95%
+
+      - name: System Administration (Linux, OpenVpn, Virtualisation)
+        level: 90%
+
+      - name: SOAP, XML, HL7, Json, API Design
+        level: 85%
+
+      - name: TCP/IP Protocols, Serial Protocols & Machine Interfaces
+        level: 80%
+
+      - name: Oracle Database
+        level: 80%
+
+      - name: IBM DB2 Database
+        level: 80%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

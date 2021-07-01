@@ -68,8 +68,13 @@ _education:
           - Bullet point
           - Bullet point
 experiences:
+    - role: Software Engineer
+      time: 2021 - Current
+      company: Covidence, Remote
+      details: |
+        I am a senior member of the team at Covidence. Covidence leads the world in systematic review software and is used by a large number of worlds leading research organisations inlclude the World Health Organisation.
     - role: Product & Development Manager
-      time: 2013 - Present
+      time: 2013 - 2021
       company: Clintel Systems, Adelaide
       details: |
         I am responsible for the design and implementation of Clintel Systems clinical software product CareRight. CareRight is a fully integrated patient administration, medical records and billing systems for medical specialists and private hospitals. Direct integration for Medicare / Health Fund claiming systems.
@@ -83,9 +88,9 @@ experiences:
       time: 2009 - 2013
       company: University of Adelaide, Adelaide
       details: |
-        I worked on a range of internal and external facing applications built and maintained for the Office of the Deputy Vice-Chancellor (Research). 
+        I worked on a range of internal and external facing applications built and maintained for the Office of the Deputy Vice-Chancellor (Research).
 
-        Data is aggregated from various source systems in the university compromising millions of rows of data spanning decades of use. Extensive use of Oracle PL/SQL. 
+        Data is aggregated from various source systems in the university compromising millions of rows of data spanning decades of use. Extensive use of Oracle PL/SQL.
 
         Accomplishments:
           - Technical Lead on major project with multiple developers.
